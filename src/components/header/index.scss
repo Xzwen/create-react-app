@@ -1,0 +1,14 @@
+@import 'src/style/common.scss';
+
+.header-component{
+    padding: 20px;
+    font-size: $global_font18;
+    background: $global_common;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    >.header-exit{
+        cursor: pointer;
+    }
+}
